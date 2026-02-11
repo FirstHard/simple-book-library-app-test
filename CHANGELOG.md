@@ -14,3 +14,4 @@
 - API resources
 - Feature tests for Books API CRUD
 - Validation and database assertions
+- Swagger UI with OpenAPI documentation for Books API

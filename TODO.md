@@ -7,7 +7,7 @@
 - [x] Add validation and API resources
 - [x] Add pagination and filtering
 - [x] Add PHPUnit tests
-- [ ] Add Swagger UI
+- [x] Add Swagger UI
 - [ ] Implement Vue frontend demo
 - [ ] Configure Docker environment
 - [ ] Write full documentation

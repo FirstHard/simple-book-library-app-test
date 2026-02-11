@@ -3,10 +3,10 @@
 - [x] Initialize Laravel 12 project
 - [x] Configure environment
 - [x] Create Book model and migration
-- [ ] Implement Books REST API
-- [ ] Add validation and API resources
-- [ ] Add pagination and filtering
-- [ ] Add PHPUnit tests
+- [x] Implement Books REST API
+- [x] Add validation and API resources
+- [x] Add pagination and filtering
+- [x] Add PHPUnit tests
 - [ ] Add Swagger UI
 - [ ] Implement Vue frontend demo
 - [ ] Configure Docker environment

@@ -39,7 +39,7 @@ php artisan serve
 
 ## API
 Base URL (example):
-http://book-library-app.test/api
+http://localhost/api
 
 Swagger UI will be available at:
 /api/documentation

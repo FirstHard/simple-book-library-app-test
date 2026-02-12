@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://book-library-app.test/api'),
+    'url' => env('APP_URL', 'http://localhost:8000/api'),
 
     /*
     |--------------------------------------------------------------------------

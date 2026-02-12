@@ -15,3 +15,6 @@
 - Feature tests for Books API CRUD
 - Validation and database assertions
 - Swagger UI with OpenAPI documentation for Books API
+- Vue 3 frontend demo for Book Library
+- Axios API client
+- BookList and BookForm components

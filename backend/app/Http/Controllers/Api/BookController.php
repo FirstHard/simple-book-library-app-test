@@ -47,6 +47,13 @@ class BookController extends Controller
                 description: "Filter by genre",
                 required: false,
                 schema: new OA\Schema(type: "string")
+            ),
+            new OA\Parameter(
+                name: "page",
+                in: "query",
+                description: "Page number",
+                required: false,
+                schema: new OA\Schema(type: "integer", default: 1)
             )
         ],
         responses: [
@@ -65,7 +72,8 @@ class BookController extends Controller
             $query->where('genre', $request->genre);
         }
 
-        $books = $query->paginate(10);
+        $perPage = min((int) $request->input('per_page', 10), 100);
+        $books = $query->paginate($perPage);
 
         return BookResource::collection($books);
     }

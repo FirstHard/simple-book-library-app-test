@@ -8,6 +8,6 @@
 - [x] Add pagination and filtering
 - [x] Add PHPUnit tests
 - [x] Add Swagger UI
-- [ ] Implement Vue frontend demo
+- [x] Implement Vue frontend demo
 - [ ] Configure Docker environment
 - [ ] Write full documentation

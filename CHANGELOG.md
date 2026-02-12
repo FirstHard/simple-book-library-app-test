@@ -18,3 +18,4 @@
 - Vue 3 frontend demo for Book Library
 - Axios API client
 - BookList and BookForm components
+- Docker environment configuration

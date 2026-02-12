@@ -9,5 +9,5 @@
 - [x] Add PHPUnit tests
 - [x] Add Swagger UI
 - [x] Implement Vue frontend demo
-- [ ] Configure Docker environment
-- [ ] Write full documentation
+- [x] Configure Docker environment
+- [x] Write full documentation
